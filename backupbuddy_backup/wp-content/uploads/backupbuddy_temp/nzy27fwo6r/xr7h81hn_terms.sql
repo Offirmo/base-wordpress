@@ -1,0 +1,10 @@
+CREATE TABLE `xr7h81hn_terms` (  `term_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  `name` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',  `slug` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '',  `term_group` bigint(10) NOT NULL DEFAULT '0',  PRIMARY KEY (`term_id`),  KEY `slug` (`slug`(191)),  KEY `name` (`name`(191))) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+/*!40000 ALTER TABLE `xr7h81hn_terms` DISABLE KEYS */;
+INSERT INTO `xr7h81hn_terms` VALUES('1', 'Non classé', 'non-classe', '0');
+INSERT INTO `xr7h81hn_terms` VALUES('2', 'Menu principal fr', 'menu-principal-fr', '0');
+INSERT INTO `xr7h81hn_terms` VALUES('3', 'Menu du pied de page fr', 'menu-du-pied-de-page-fr', '0');
+INSERT INTO `xr7h81hn_terms` VALUES('4', 'Menu principal en', 'menu-principal-en', '0');
+INSERT INTO `xr7h81hn_terms` VALUES('5', 'Menu du pied de page en', 'menu-du-pied-de-page-en', '0');
+INSERT INTO `xr7h81hn_terms` VALUES('6', 'Menu principal de', 'menu-principal-de', '0');
+INSERT INTO `xr7h81hn_terms` VALUES('7', 'Menu du pied de page de', 'menu-du-pied-de-page-de', '0');
+/*!40000 ALTER TABLE `xr7h81hn_terms` ENABLE KEYS */;

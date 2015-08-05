@@ -12,7 +12,7 @@ puis dans le bash du conteneur :
 cd
 apt-get update
 apt-get upgrade --yes
-apt-get install curl --yes
+apt-get install curl jq --yes
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 php wp-cli.phar --info --allow-root
 chmod +x wp-cli.phar
