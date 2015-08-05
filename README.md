@@ -81,6 +81,9 @@ wp --allow-root plugin uninstall backupbuddy --deactivate
 Experimental
 ```bash
 wp --allow-root menu item add-post sidebar-menu 33 --title="Custom Test Post"
+
+wp --allow-root plugin install wpclef --activate
+
 ```
 
 old lines, for info
