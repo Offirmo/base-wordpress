@@ -1,5 +1,9 @@
 <?php
 
+// BEGIN iThemes Security - Do not modify or remove this line
+// iThemes Security Config Details: 2
+define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
+// END iThemes Security - Do not modify or remove this line
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
@@ -20,14 +24,14 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-define('AUTH_KEY',         'o_pwx43sL_8*LDBxID.q/{}kF6)eB`&C?JcT2:-lIW?FjU&,ReZKyJu-(,PmIwZ]');
-define('SECURE_AUTH_KEY',  '<{hYE;-.~jexok)giq8~e!Fohj^:Z `m}:]%)A~yZQxF8{iHE}6ORC_J|vAWK!B|');
-define('LOGGED_IN_KEY',    '5JN_+f]>${4$4u. obS9Va@~l#:J=<OW$*[1rTrHCOA088B*kOSHPX+(-E=]6jFt');
-define('NONCE_KEY',        'kj1pa;1Bgl%ni<P@HtYU];h9OGHu&~~m|:5tS!4f5qhf19YD$0D ucj]s%&$G*|F');
-define('AUTH_SALT',        '*~rp*E@%ZVA{*g>p]Hn9EkS!ddO#-N-Ns_]&nt+55`e@I&b|2S},R&om[>g-4E47');
-define('SECURE_AUTH_SALT', 'pj>0i8Oxp;2y`B.OMt7`n2o,O9vHw}j+&i4%gp@41[b+(]4]R7})([gw/]Jnlm&u');
-define('LOGGED_IN_SALT',   '$i!`b{6lwxR8`Nw@8;sKy(CknEZQ-xJRZjsP--F,Ly+~e=omU.[TvGR&-k! IRsv');
-define('NONCE_SALT',       '3-=G&Z;{,k-qCJnSR1]Mek|XO6o(Y1M3?+|Om5dE=KWy8^k+=BRy4F4,}|UcqX)3');
+define('AUTH_KEY',         '+_fO$x[PXRw*~EZ#eHy13KWlJrK`t`<fU?TwwG!(=>ZWzkwERV:h;OtA63.[z};*');
+define('SECURE_AUTH_KEY',  '{Lbk&@|28Qk<0Gxe]pm&4Ffx>bju;ba(Mc;r%-*Ly|E+x2|l&c|JH,6C/%X{^X9q');
+define('LOGGED_IN_KEY',    '00HCIn@6eeSB7IMMKC)&yOhvq4k>o*k#FRd@5^G9-=/PsJ{3!`I.kPsBfCvuhG,M');
+define('NONCE_KEY',        '_ mP%TkYEhaXR{mqYUn9.F/c8sw$YsoIrB=<(,SkdS7UH(~:B=1xqYz=^WZC##`;');
+define('AUTH_SALT',        'bU+-QD:T-0apG~i8V9;~urV?@hAO-/F_Sr5>VYNDlNTSk1m6xeERv[P,<%J$@$Zr');
+define('SECURE_AUTH_SALT', ':rlN$Z^]?wFj_R$hVfY^;a!+^h1Q_m8%E*qgF<<DqyNa%ohyu6bm6#?K-Z[5!UHc');
+define('LOGGED_IN_SALT',   'AXi6Rb,7AJ7cX#A&GC| c{J=OwPm%_pdHy9=A5R0ak3Y=}DqstquiZfW)V9YE+2~');
+define('NONCE_SALT',       'jyVJ|?,|iYP<O&j7?z{h+<36Ozr&k*Qte/3>.Y+ejA?YfhsdHgkt #+Nadsk_8E]');
 
 
 $table_prefix = 'xr7h81hn_';

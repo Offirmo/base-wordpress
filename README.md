@@ -45,10 +45,14 @@ chmod -R o+wx *
 ```
 here make the 1st backup (http://192.168.88.88:10000/wp-login.php, Offirmo/WPBasePassword) then continue
 ```bash
+wp --allow-root plugin install jetpack
 wp --allow-root plugin install better-wp-security --activate
-wp --allow-root plugin install polylang language-icons-flags-switcher --activate
+wp --allow-root plugin install polylang --activate
+wp --allow-root plugin install language-icons-flags-switcher --activate
 wp --allow-root plugin install simple-drop-cap --activate
-wp --allow-root plugin install miwoftp wp-dashboard-notes --activate
+wp --allow-root plugin install simple-custom-css --activate
+wp --allow-root plugin install favicon-by-realfavicongenerator --activate
+wp --allow-root plugin install wp-dashboard-notes --activate
 wp --allow-root theme install http://offirmo.github.io/html_tests/misc/Etendard-1-016.zip
 wp --allow-root theme install http://offirmo.github.io/html_tests/misc/Etendard-enfant.zip --activate
 wp --allow-root menu create "Menu principal fr"
@@ -59,6 +63,26 @@ wp --allow-root menu create "Menu principal de"
 wp --allow-root menu create "Menu du pied de page de"
 chown -R www-data:www-data *
 chmod -R o+wx *
+
+# Général
+wp --allow-root option update "users_can_register" "0"
+wp --allow-root option update "date_format" "Y-m-d"
+wp --allow-root option update "time_format" "H:i"
+# Discussion
+wp --allow-root option update "default_comment_status" "closed"
+wp --allow-root option update "comment_moderation" "1"
+wp --allow-root option update "comment_registration" "1"
+wp --allow-root option update "avatar_default" "gravatar_default"
+# Permaliens
+wp --allow-root option update "permalink_structure" "/%postname%/"
+wp --allow-root option update "uploads_use_yearmonth_folders" "0"
+# Akismet
+wp --allow-root option update "wordpress_api_key" "d49b5ee258bd"
+wp --allow-root option update "akismet_show_user_comments_approved" "0"
+wp --allow-root option update "akismet_strictness" "0"
+# Etendard advertising
+wp --allow-root option update "CocoricoPostMetaStorePostId" ""
+
 ```
 
 Special lines
@@ -72,7 +96,8 @@ wp --allow-root plugin update --all
 wp --allow-root user list
 wp --allow-root menu list
 wp --allow-root post list --post_type=page,post
-wp --allow-root option list --format=json > options01.json
+wp --allow-root option list --format=json > jq > options03.json
+jq . pb_backupbuddy/
 wp --allow-root option list --format=json > options02.json
 
 wp --allow-root plugin uninstall backupbuddy --deactivate
@@ -84,10 +109,13 @@ wp --allow-root menu item add-post sidebar-menu 33 --title="Custom Test Post"
 
 wp --allow-root plugin install wpclef --activate
 
+wp --allow-root plugin install slideshare --activate
+
 ```
 
 old lines, for info
 ```bash
 wp --allow-root plugin install jetpack
 wp --allow-root plugin install http://offirmo.github.io/html_tests/misc/backupbuddy-5.2.0.10.zip --activate
+wp --allow-root plugin install miwoftp --activate
 ```
