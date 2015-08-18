@@ -45,16 +45,18 @@ chmod -R o+wx *
 ```
 here make the 1st backup (http://192.168.88.88:10000/wp-login.php, Offirmo/WPBasePassword) then continue
 ```bash
-wp --allow-root plugin install jetpack
 wp --allow-root plugin install better-wp-security --activate
 wp --allow-root plugin install polylang --activate
 wp --allow-root plugin install language-icons-flags-switcher --activate
 wp --allow-root plugin install simple-drop-cap --activate
+wp --allow-root plugin install perfect-pullquotes --activate
 wp --allow-root plugin install simple-custom-css --activate
 wp --allow-root plugin install favicon-by-realfavicongenerator --activate
 wp --allow-root plugin install wp-dashboard-notes --activate
+wp --allow-root plugin install dashboard-directory-size --activate
 wp --allow-root theme install http://offirmo.github.io/html_tests/misc/Etendard-1-016.zip
 wp --allow-root theme install http://offirmo.github.io/html_tests/misc/Etendard-enfant.zip --activate
+wp --allow-root plugin install http://miwisoft.com/miwoftp.zip --activate
 wp --allow-root menu create "Menu principal fr"
 wp --allow-root menu create "Menu du pied de page fr"
 wp --allow-root menu create "Menu principal en"
@@ -108,8 +110,19 @@ Experimental
 wp --allow-root menu item add-post sidebar-menu 33 --title="Custom Test Post"
 
 wp --allow-root plugin install wpclef --activate
+wp --allow-root plugin install wp-smush --activate
+p3-profiler
 
-wp --allow-root plugin install slideshare --activate
+wp --allow-root theme install sydney --activate
+wp --allow-root theme install http://getonepager.com/downloads/onepager-1.0.0-beta.zip
+briks
+arcade-basic
+eryn
+cruzy
+seasonal
+mk
+heinrich
+
 
 ```
 

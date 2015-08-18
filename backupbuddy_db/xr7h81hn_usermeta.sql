@@ -24,7 +24,7 @@ INSERT INTO `xr7h81hn_usermeta` VALUES('34', '2', 'user_lang', '0');
 INSERT INTO `xr7h81hn_usermeta` VALUES('35', '2', 'description_en', '');
 INSERT INTO `xr7h81hn_usermeta` VALUES('36', '2', 'closedpostboxes_dashboard', 'a:0:{}');
 INSERT INTO `xr7h81hn_usermeta` VALUES('37', '2', 'metaboxhidden_dashboard', 'a:3:{i:0;s:19:\"dashboard_right_now\";i:1;s:21:\"dashboard_quick_press\";i:2;s:17:\"dashboard_primary\";}');
-INSERT INTO `xr7h81hn_usermeta` VALUES('38', '2', 'meta-box-order_dashboard', 'a:4:{s:6:\"normal\";s:38:\"dashboard_right_now,dashboard_activity\";s:4:\"side\";s:60:\"dashboard_quick_press,dashboard_primary,pb_backupbuddy_stats\";s:7:\"column3\";s:6:\"note_7\";s:7:\"column4\";s:0:\"\";}');
+INSERT INTO `xr7h81hn_usermeta` VALUES('38', '2', 'meta-box-order_dashboard', 'a:4:{s:6:\"normal\";s:38:\"dashboard_right_now,dashboard_activity\";s:4:\"side\";s:102:\"dashboard_quick_press,dashboard_primary,pb_backupbuddy_stats,dashboard-directory-size-dashboard-widget\";s:7:\"column3\";s:7:\"note_12\";s:7:\"column4\";s:0:\"\";}');
 INSERT INTO `xr7h81hn_usermeta` VALUES('39', '2', 'managedashboardcolumnshidden', 'a:1:{i:0;s:0:\"\";}');
 INSERT INTO `xr7h81hn_usermeta` VALUES('40', '2', 'closedpostboxes_toplevel_page_itsec', 'a:2:{i:0;s:18:\"itsec_self_protect\";i:1;s:17:\"itsec_get_started\";}');
 INSERT INTO `xr7h81hn_usermeta` VALUES('41', '2', 'metaboxhidden_toplevel_page_itsec', 'a:5:{i:0;s:18:\"itsec_self_protect\";i:1;s:17:\"itsec_get_started\";i:2;s:22:\"itsec_security_updates\";i:3;s:22:\"itsec_sync_integration\";i:4;s:15:\"itsec_need_help\";}');
