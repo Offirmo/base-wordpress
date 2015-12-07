@@ -54,6 +54,8 @@ wp --allow-root plugin install simple-custom-css --activate
 wp --allow-root plugin install favicon-by-realfavicongenerator --activate
 wp --allow-root plugin install wp-dashboard-notes --activate
 wp --allow-root plugin install dashboard-directory-size --activate
+wp --allow-root plugin install wpmandrill --activate
+wp --allow-root plugin install check-email --activate
 wp --allow-root theme install http://offirmo.github.io/html_tests/misc/Etendard-1-016.zip
 wp --allow-root theme install http://offirmo.github.io/html_tests/misc/Etendard-enfant.zip --activate
 wp --allow-root plugin install http://miwisoft.com/miwoftp.zip --activate
